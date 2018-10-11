@@ -1,0 +1,24 @@
+{
+  "name": "insults",
+  "version": "2.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "shakespeare-insult": "latest",
+    "express": "latest",
+    "body-parser": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottpletcher/aws-csa-pro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottpletcher/aws-csa-pro/issues"
+  },
+  "homepage": "https://github.com/scottpletcher/aws-csa-pro#readme"
+}
