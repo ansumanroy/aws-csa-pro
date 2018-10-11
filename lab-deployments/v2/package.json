@@ -1,15 +1,11 @@
 {
   "name": "insults",
   "version": "2.0.0",
-  "description": "",
+  "description": "Version 2 of the wonderful Shakespeare Insult Flinger",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "shakespeare-insult": "latest",
-    "express": "latest",
-    "body-parser": "latest"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/scottpletcher/aws-csa-pro/issues"
   },
-  "homepage": "https://github.com/scottpletcher/aws-csa-pro#readme"
+  "homepage": "https://github.com/scottpletcher/aws-csa-pro#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "shakespeare-insult": "^1.0.0"
+  }
 }

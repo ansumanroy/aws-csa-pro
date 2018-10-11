@@ -35,5 +35,5 @@ app.get('/', function(req,res){
 })
 
 app.listen(port,function(){
-    console.log('Insult app listening on port',port);
+    console.log('Insult v2 app listening on port',port);
 })
